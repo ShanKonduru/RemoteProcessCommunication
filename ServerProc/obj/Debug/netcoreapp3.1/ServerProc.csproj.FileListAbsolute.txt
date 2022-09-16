@@ -1,0 +1,13 @@
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\bin\Debug\netcoreapp3.1\ServerProc.exe
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\bin\Debug\netcoreapp3.1\ServerProc.deps.json
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\bin\Debug\netcoreapp3.1\ServerProc.runtimeconfig.json
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\bin\Debug\netcoreapp3.1\ServerProc.runtimeconfig.dev.json
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\bin\Debug\netcoreapp3.1\ServerProc.dll
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\bin\Debug\netcoreapp3.1\ServerProc.pdb
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.csprojAssemblyReference.cache
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.AssemblyInfoInputs.cache
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.AssemblyInfo.cs
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.csproj.CoreCompileInputs.cache
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.dll
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.pdb
+C:\SeleniumProjects\RemoteProcessCommunication\ServerProc\obj\Debug\netcoreapp3.1\ServerProc.genruntimeconfig.cache
