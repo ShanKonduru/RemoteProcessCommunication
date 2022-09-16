@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "ClientProc/1.0.0": {
+        "dependencies": {
+          "Utilities": "1.0.0"
+        },
         "runtime": {
           "ClientProc.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ClientProc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,7 +6,8 @@ using System.Threading;
 
 namespace ServerProc {
     public class ServerPipe {
-        private static int numThreads = 4;
+        
+        private static int numThreads = Utilities.Constants.NumberOfClients;
 
         public static void StartServerPipe () {
             int i;
@@ -35,7 +36,7 @@ namespace ServerProc {
 
         private static void ServerThread (object data) {
             NamedPipeServerStream pipeServer =
-                new NamedPipeServerStream ("testpipe", PipeDirection.InOut, numThreads);
+                new NamedPipeServerStream (Utilities.Constants.PipeName, PipeDirection.InOut, numThreads);
 
             int threadId = Thread.CurrentThread.ManagedThreadId;
 
@@ -66,7 +67,9 @@ namespace ServerProc {
             // Catch the IOException that is raised if the pipe is broken
             // or disconnected.
             catch (IOException e) {
-                Console.WriteLine ("ERROR: {0}", e.Message);
+                Console.WriteLine ("Error Message: {0}", e.Message);
+                Console.WriteLine ("Inner Exception Message: {0}", e.InnerException.Message);
+                Console.WriteLine ("Stack Trace: {0}", e.StackTrace.ToString());
             }
             pipeServer.Close ();
         }

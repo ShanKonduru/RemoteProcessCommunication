@@ -11,3 +11,6 @@ C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\bin\Debug\netcoreapp3.
 C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\obj\Debug\netcoreapp3.1\ClientProc.dll
 C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\obj\Debug\netcoreapp3.1\ClientProc.pdb
 C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\obj\Debug\netcoreapp3.1\ClientProc.genruntimeconfig.cache
+C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\bin\Debug\netcoreapp3.1\Utilities.dll
+C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\bin\Debug\netcoreapp3.1\Utilities.pdb
+C:\SeleniumProjects\RemoteProcessCommunication\ClientProc\obj\Debug\netcoreapp3.1\ClientProc.csproj.CopyComplete

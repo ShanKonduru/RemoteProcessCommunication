@@ -1,0 +1,9 @@
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\bin\Debug\netstandard2.0\Utilities.deps.json
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\bin\Debug\netstandard2.0\Utilities.dll
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\bin\Debug\netstandard2.0\Utilities.pdb
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\obj\Debug\netstandard2.0\Utilities.csprojAssemblyReference.cache
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\obj\Debug\netstandard2.0\Utilities.AssemblyInfoInputs.cache
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\obj\Debug\netstandard2.0\Utilities.AssemblyInfo.cs
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\obj\Debug\netstandard2.0\Utilities.csproj.CoreCompileInputs.cache
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\obj\Debug\netstandard2.0\Utilities.dll
+C:\SeleniumProjects\RemoteProcessCommunication\Utilities\obj\Debug\netstandard2.0\Utilities.pdb

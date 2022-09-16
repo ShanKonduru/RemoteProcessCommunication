@@ -8,13 +8,13 @@ using System.Threading;
 
 namespace ClientProc {
     public class ClientPipe {
-        private static int numClients = 4;
+        private static int numClients = Utilities.Constants.NumberOfClients;
 
         public static void StartClient (string[] args) {
             if (args.Length > 0) {
-                if (args[0] == "spawnclient") {
+                if (args[0] == Utilities.Constants.ClientName) {
                     var pipeClient =
-                        new NamedPipeClientStream (".", "testpipe",
+                        new NamedPipeClientStream (".", Utilities.Constants.PipeName,
                             PipeDirection.InOut, PipeOptions.None,
                             TokenImpersonationLevel.Impersonation);
 
@@ -27,7 +27,7 @@ namespace ClientProc {
                         // The client security token is sent with the first write.
                         // Send the name of the file whose contents are returned
                         // by the server.
-                        ss.WriteString ("c:\\textfile.txt");
+                        ss.WriteString (Utilities.Constants.FilePathAndNameToRead);
 
                         // Print the file to the screen.
                         Console.Write (ss.ReadString ());
@@ -72,8 +72,9 @@ namespace ClientProc {
             int i;
             for (i = 0; i < numClients; i++) {
                 // Start 'this' program but spawn a named pipe client.
-                plist[i] = Process.Start (currentProcessName, "spawnclient");
+                plist[i] = Process.Start (currentProcessName, Utilities.Constants.ClientName);
             }
+            
             while (i > 0) {
                 for (int j = 0; j < numClients; j++) {
                     if (plist[j] != null) {
